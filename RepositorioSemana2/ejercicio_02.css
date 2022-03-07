@@ -1,0 +1,32 @@
+[class*="box"] {
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+}
+.box1 {
+    border-width: 20px 10px 30px;
+    border-style: solid;
+    border-color: aqua;
+}
+.box2{
+    background: red;
+    border-width: 15px;
+    border-top-color: black;
+    border-left-color: blue;
+    border-style:groove;
+    border-top-left-radius: 15px;
+
+}
+.box_padre{
+    background: blue;
+    border-width: 15px;
+    border-color: yellowgreen;
+    border-style:solid;
+    border-top-left-radius: 15px;
+}
+.box7{
+    background: red;
+    border:inherit;
+    border-style:dotted;
+
+}

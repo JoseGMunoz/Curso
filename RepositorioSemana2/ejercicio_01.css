@@ -1,0 +1,27 @@
+*{
+    color:black;
+}
+
+h1,h2{
+    color: aqua;
+}
+div#contenido { width: 600px; 
+background-color: rgb(31, 117, 192);}
+div.principal { width: 80%; 
+background-color: darkorange;}
+p span{
+    color:red;
+}
+.destacado{
+    color: green;
+}
+/* Todos los elementos de tipo "p" con atributo class="aviso"*/
+p.aviso {
+    color: rgb(209, 159, 20);
+}
+
+/*Todos los elementos con atributo class="aviso" que estén dentro de cualquier elemento de tipo "p"*/
+p .aviso {
+    color: rgb(235, 231, 30);
+}
+    

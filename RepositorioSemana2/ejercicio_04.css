@@ -1,0 +1,12 @@
+[class*=box]{
+    width: 250px;
+    height: 250px;
+    margin: 100px;
+}
+.box1{
+    background-color: aqua;
+    display: none;
+}
+.box2{
+    background-color: blue;
+}
